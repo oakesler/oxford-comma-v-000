@@ -10,7 +10,7 @@ def oxford_comma(array)
    if array.length == 3
     return "#{array[-3]}, " << "#{array[0]} and #{array[1]}" 
   end
-  if array > 3 
+  if array.length > 3 
     array[0..-3].join(",") << "#{array[0]} and #{array[1]}"
   end
 end
