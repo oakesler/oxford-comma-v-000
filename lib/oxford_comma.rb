@@ -1,5 +1,6 @@
-
+require "pry"
 def oxford_comma(array)
+  binding.pry
   final_array = "#{array[0]} and #{array[1]}"
   if array.length == 1 
     return "#{array[0]}"
