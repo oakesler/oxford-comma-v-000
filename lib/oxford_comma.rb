@@ -15,3 +15,5 @@ def oxford_comma(array)
     return new_array >> "#{array[0]} and #{array[1]}"
   end
 end
+end
+
