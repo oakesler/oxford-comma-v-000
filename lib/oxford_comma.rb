@@ -12,7 +12,6 @@ def oxford_comma(array)
   end
   if array >= 3 
     new_array = array[0..-3].join(",")
-    return new_array >> final_array
-  end
+    return new_array >> "#{array[0]} and #{array[1]}"
   end
 end
